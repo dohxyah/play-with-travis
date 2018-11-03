@@ -2,3 +2,9 @@ language: ruby
 rvm:
  - 2.2
  - jruby
+
+notifications:
+ slack:
+   rooms:
+     - dohxyah:ECnJMqa9YGLiB0cYug0GPXQF#general
+     - dohxyah:ECnJMqa9YGLiB0cYug0GPXQF#random
