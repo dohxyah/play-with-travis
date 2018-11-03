@@ -11,3 +11,10 @@ before_install:
 script:
     - docker images
     - docker ps
+
+notifications:
+ slack:
+   rooms:
+     - dohxyah:ECnJMqa9YGLiB0cYug0GPXQF#general
+#     - dohxyah:ECnJMqa9YGLiB0cYug0GPXQF#random
+
